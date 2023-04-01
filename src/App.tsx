@@ -44,11 +44,15 @@ function App() {
 
     return (
         <div className="App">
+       
+        
             <Button
                 buttonName={"Сделать запрос"}
                 callBack={getRequestHandler}
                 clearPage={clearPage}
             />
+
+            
 
             {dataFromJsonPlaceholder}
 
