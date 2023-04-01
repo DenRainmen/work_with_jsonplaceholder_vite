@@ -28,7 +28,7 @@ export function Button(props: ButtonTypeProps) {
                 style={{background: "tomato", borderRadius: "5px"}}
                 onClick={onClickButtonHandler2}
             >
-                Clear the Page
+                Очистить страницу
             </button>
         </div>
 
